@@ -1,59 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title> Anubhav's Personal Site </title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<title>Anubhav Sharma</title>
+	<link rel="icon" type="image/x-icon" href="../Images/resume.png">
+	<link rel="stylesheet" type="text/css" href="../CSS/cn.css">
+	<script src="https://kit.fontawesome.com/6feb87df8d.js" crossorigin="anonymous"></script>
+	<style>
+		.skill-progress{
+			background-color: White;
+		}
+		.eighty-percent{
+			width: 80%;
+			background-color: rgb(43, 43, 132);
+			border-radius: 1rem;
+		}
+		.eighty-percent div{
+			display: flex;
+			justify-content: center;
+		}
+		.skill-name span{
+			text-align: center;
+			border-radius: 10px;
+		}
+	</style>
 </head>
-
 <body>
-    <img src="./Images/pic.png" alt="Anubha's Profile Picture">
-    <h1> Anubhav Sharma </h1>
-    <p><em> Studying at SRM Institute Of Science and Technology </em></p>
-    <p> B.tech CSE with Specialization Cloud Computing </p>
-    <hr>
-    <h3> Education </h3>
-    <table cellspacing="20">
-        <thead>
-                <tr>
-                    <th> Institute Name </th>
-                    <th> Year </th>
-                </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td> Universal Public School </td>
-                <td> 2006-2018 </td>
-            </tr>
-            <tr>
-                <td> Jm International School </td>
-                <td> 2018-2020 </td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3> Skills </h3>
-    <table>
-        <tbody>
-            <tr>
-                <td>C++</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>C</td>
-                <td>⭐️⭐️⭐️</td>
-            </tr>
-            <tr>
-                <td>HTML</td>
-                <td>⭐️⭐️⭐️⭐️</td>
-            </tr>
-            <tr>
-                <td>css</td>
-                <td>⭐️⭐️⭐️⭐️</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <a href="contact.html"><h3> Contact Details </h3></a>
+	<header id="body-header">
+        <nav>
+			<ul class="horizontal-list text-center">
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div id="social-name">
+			<div class="text-center">
+				<h1 id="my-name">Anubhav Sharma</h1>
+			</div>
+			<div id="social-icons" class="text-center">
+				<ul>
+                    <li><a href="https://www.linkedin.com/in/anubhav-sharma-8a168720b/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://stackoverflow.com/users/22607019/anubhav-sharma"><i class="fa-brands fa-stack-overflow"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-quora"></i></a></li>
+                </ul>
+			</div>
+		</div>
+	</header>
+	<main>
+
+		<section id="about">
+			<div>
+				<div class="profile-img " id="my-img">
+					<img src="../Images/cc.jpg" alt="Profile Picture">
+				</div>
+				<div id="para">
+					<p>
+						Enthusiastic and highly motivated final year B.Tech student with a 
+						strong foundation in front-end development, programming languages,
+						and a keen interest in computer science. Eager to contribute 
+						technical skills and creativity to a dynamic team in a challenging 
+						software development role.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills">
+			<h1 class="text-center section-heading">
+				<span>
+					<i class="fa-solid fa-chalkboard-user"></i>
+				</span>
+				<span>
+					Skills
+				</span>
+			</h1>
+			<div class="skills-display">
+				<div class="skill-progress ">
+					<div class="eighty-percent">
+						<div class="skill-name">
+							<span>Java</span>
+						</div>
+					</div>
+				</div>
+			
+			
+				<div class="skill-progress ">
+					<div class="eighty-percent">
+						<div class="skill-name">
+							<span>HTML</span>
+						</div>
+					</div>
+				</div>
+			
+				<div class="skill-progress ">
+					<div class="eighty-percent">
+						<div class="skill-name">
+							<span>CSS</span>
+						</div>
+					</div>
+				</div>
+			
+				<div class="skill-progress ">
+					<div class="eighty-percent">
+						<div class="skill-name">
+							<span>C++</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill-progress ">
+					<div class="eighty-percent">
+						<div class="skill-name">
+							<span>JavaScript</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill-progress ">
+					<div class="eighty-percent">
+						<div class="skill-name">
+							<span>MongoDb</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+
+		<section id="education">
+			
+		</section>
+
+		<section id="portfolio">
+			
+		</section>
+
+		<section id="contact">
+			
+		</section>
+
+	</main>
+
 </body>
 </html>
