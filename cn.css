@@ -135,23 +135,79 @@ h1{
     justify-content: space-between;
     flex-wrap: wrap;
     height: auto;
-    
-    
 }
+
+.margin{
+    margin-bottom: 4.5rem;
+}
+
 .skill-progress{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     border-radius: 1rem;
+    box-shadow: 3px 3px 10px 2px black;
     border: 1px solid grey;
     height: 30px;
     margin: 40px;
     width: 20%;
     color: white;
+    background-color: White;
 
 }
+.skill-progress>div{
+    border-radius: 1rem;
+}
+.center div{
+    display: flex;
+    margin-left: 7px;
+}
 
-.skill-name {
-
+.skill-name span{
+    color: white;
     font-size: 24px;
+}
+/*----- Percentage -----*/
+.eighty-percent{
+    width: 80%;
+    height: inherit;
+    background-color: rgb(43, 43, 132);
+    border-radius: 1rem;
+}
+
+.fifty-percent{
+    width: 50%;
+    height: inherit;
+    background-color: rgb(255, 111, 0);
+    border-radius: 1rem;
+}
+.sixty-percent{
+    width: 60%;
+    height: inherit;
+    background-color: purple ;
+    border-radius: 1rem;
+}
+
+/*-----Portfolio-----*/
+.img-container{
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+.project-name{
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
 }
